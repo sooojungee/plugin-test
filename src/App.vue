@@ -1,12 +1,15 @@
 <template>
   <div id="app">
+    <div class="button" @click="click"> ccclliicckk</div>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+
     <router-view/>
   </div>
 </template>
+<script src="./app.ts"/>
 
 <style lang="scss">
 #app {
